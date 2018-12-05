@@ -17,7 +17,6 @@ public class UserController {
 	@GetMapping("/1.0/sayHello")
 	public Result sayHello() {
 		Result result = new Result();
-		
 		return result;
 	}
 }
